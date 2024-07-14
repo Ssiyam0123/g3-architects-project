@@ -124,4 +124,7 @@ font-weight: 400;
         display: flex;
         flex-direction: column;
     }
+    .second-page-first-half{
+        grid-template-columns: repeat(1 , 1fr);
+    }
 }
