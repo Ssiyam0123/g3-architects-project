@@ -1,3 +1,84 @@
-.code{
-    border: 10px solid black;
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+header{
+    background-color: #FFF4E6;
+    
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    width: 85%;
+    margin: 0 auto;
+    color: rgb(19, 19, 19);
+font-family: Work Sans;
+font-size: 45px;
+font-weight: 700;
+}
+.nav-names{
+    display: flex;
+    list-style: none;
+    /* border: 5px solid black;     */
+    /* justify-content: space-between; */
+}
+.nav-items{
+    /* margin-right: 10px; */
+    width: 100px;  
+    color: rgb(66, 66, 66);
+font-family: Work Sans;
+font-size: 18px;
+font-weight: 500;    
+}
+.heading{
+    color: rgb(19, 19, 19);
+font-family: Work Sans;
+font-size: 64px;
+font-weight: 700;
+}
+.description{
+    color: rgb(114, 114, 114);
+font-family: Work Sans;
+font-size: 16px;
+font-weight: 400;
+}
+.btn-container{
+    border-radius: 8px;
+
+background: rgb(255, 144, 14);
+border: none;
+padding: 20px;
+}
+.first-page-middle{
+    width: 85%;
+    margin: 0 auto;
+    text-align: center;
+}
+.first-page-img{
+    /* border: 2px solid red; */
+    width: 85%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+.first{
+    width: 85%;
+    margin: 0 auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+
+
+@media screen and (max-width: 576px) {
+    nav{
+        display: flex;
+        flex-direction: column-reverse;
+        
+    }
+    .nav-names{
+        justify-content: space-around;
+    }
+    nav p{
+        text-align: center;
+    }
 }
