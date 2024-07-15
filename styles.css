@@ -5,6 +5,9 @@ header{
     background-color: #FFF4E6;
     
 }
+button{
+    cursor: pointer;
+}
 nav{
     display: flex;
     justify-content: space-between;
